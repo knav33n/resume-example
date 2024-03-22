@@ -1,0 +1,12 @@
+.da-container {
+  border: 1px solid var(--grey-lightest);
+  border-radius: 8px;
+  padding: 2rem;
+}
+.da-container h6 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.da-container p {
+    margin-bottom: 1.5rem;
+}

@@ -1,0 +1,23 @@
+.button {
+  border: none;
+  padding: 1rem 5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.default {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.link {
+    border: none;
+    background: var(--white);
+    color: var(--red);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.icon {
+  background: var(--white);
+  padding: 0;
+}

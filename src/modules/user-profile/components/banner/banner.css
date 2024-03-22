@@ -1,0 +1,24 @@
+.banner {
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 8px;
+  padding: 2rem 2rem;
+  display: flex;
+}
+
+.banner-img {
+    object-fit: contain;
+    margin-right: 1.5rem;
+    width: 100px;
+    height: 100px;
+}
+
+.banner-heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+.banner-content {
+    line-height: 2.5rem;
+}

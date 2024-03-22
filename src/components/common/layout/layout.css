@@ -1,0 +1,25 @@
+.container {
+  padding: 4rem 8rem;
+  padding-bottom: 2rem;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 25rem;
+}
+.footer {
+  padding-top: 1rem;
+  border-top: 1px solid var(--grey-lightest);
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+.footer a {
+  text-decoration: none;
+  color: var(--grey-light);
+  font-weight: 300;
+  font-size: 1.4rem;
+}
