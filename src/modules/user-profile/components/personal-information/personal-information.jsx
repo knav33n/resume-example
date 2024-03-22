@@ -1,8 +1,8 @@
 import React, { memo } from 'react'
 import User from "../../../../assets/carla.jpg"
-import "./personal-information.css"
-import Input from '../input/input'
 import Button from '../../../../components/common/button/button'
+import Input from '../input/input'
+import "./personal-information.css"
 
 const PersonalInformation = memo(() => {
     return (
@@ -33,7 +33,7 @@ const PersonalInformation = memo(() => {
 
                         <div className='my-1 flex-spaced gap'>
                             <Input label="Password" type="password" />
-                            <div></div>
+                            <div className='form-group' />
                         </div>
 
                         <div className='my-1'>

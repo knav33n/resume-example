@@ -1,8 +1,13 @@
 .pi-fieldset {
-    margin: 3rem 0;
+  margin: 3rem 0;
 }
 .form-profile {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+.form-group {
+  display: grid;
+  grid-gap: 0.5rem;
+  width: 100%;
 }

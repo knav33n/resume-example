@@ -11,7 +11,7 @@ const UserProfile = memo(() => {
             <PersonalInformation />
             <DeleteAccount />
             <p className='my-2'>
-                <a href="">Get in touch with our support team</a> if you have any question or want to leave some feedback.
+                <a href="/">Get in touch with our support team</a> if you have any question or want to leave some feedback.
                 <br /> We'll be happy to hear from you.
             </p>
         </>
